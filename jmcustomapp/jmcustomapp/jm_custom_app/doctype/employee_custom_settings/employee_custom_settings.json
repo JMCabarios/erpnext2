@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "creation": "2022-12-18 20:43:14.967535",
+ "default_view": "List",
+ "description": "Settings",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "defaults_tab",
+  "item_defaults_section",
+  "item_naming_by",
+  "item_group",
+  "column_break_4"
+ ],
+ "fields": [
+  {
+   "fieldname": "defaults_tab",
+   "fieldtype": "Tab Break",
+   "label": "Defaults"
+  },
+  {
+   "fieldname": "item_defaults_section",
+   "fieldtype": "Section Break",
+   "label": "Item Defaults"
+  },
+  {
+   "default": "Item Code",
+   "fieldname": "item_naming_by",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Item Naming By",
+   "options": "Item Code\nNaming Series"
+  },
+  {
+   "fieldname": "item_group",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Default Item Group",
+   "options": "Item Group"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "icon": "icon-cog",
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-12-18 20:48:44.348706",
+ "modified_by": "Administrator",
+ "module": "jm custom app",
+ "name": "Employee Custom Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Stock Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "states": [],
+ "track_changes": 1
+}
